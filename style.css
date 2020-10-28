@@ -2,7 +2,6 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Oswald', 'Times New Roman', Times, serif;
-    background-image: url('./media/seabackground.jpg');
 }
 
 body {
@@ -60,6 +59,7 @@ body {
     top: -25px;
     height: 80px !important;
     float: left;
+    box-shadow: none;
 }
 
 .navlinks {
@@ -162,12 +162,12 @@ header{
 }
 
 h1 {
-    margin: 0px auto 40px auto;
+    margin: 40px auto 40px auto;
     display: block;
     text-align: center;
     color: black;
     font-size: 55px;
-    padding-top: spx;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.021);
 }
 
 .headtitle {
@@ -177,7 +177,7 @@ h1 {
     color: white;
     font-size: 55px;
     text-shadow: 3px 3px black;
-    padding-top: 180px;
+    padding-top: 50px;
 }
 
 
@@ -204,6 +204,7 @@ h1 {
 
 img {
     border-radius: 4px;
+    box-shadow: 2px 3px 5px grey;
 }
 
 /*--------------Captain section-----------*/
@@ -268,10 +269,12 @@ img {
 #notice {
     font-style: italic;
     font-size: 18px;
-    color: grey;
+    color: white;
+    font-weight: bold;
     position: relative;
     top: -40px;
 }
+
 h2 {
     text-align: center;
     color: royalblue;
@@ -296,6 +299,42 @@ li, p {
 
 
 /*Pricing styling*/
+
+.price-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+    height: fit-content;
+    margin: 40px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.img-box {
+    position: relative;
+}
+
+.price-box img {
+    width: 350px;
+    max-height: 600px;
+    margin-top: 30px;
+}
+
+.charter-description {
+    max-width: 350px;
+    height: fit-content;
+
+}
+
+.price-explaination {
+    color: grey;
+    font-style: italic;
+}
+
+.book-price {
+    margin: 50px auto;
+}
 
 
 
